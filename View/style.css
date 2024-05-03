@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:antiquewhite;
+}
+.container {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: burlywood;
+    padding-bottom: 5px;
+}
+form {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+input {
+    border: solid 3px black;
+    border-radius: 5px;
+    margin: 2px;
+    height: 20%;
+    width: 80%;
+    padding: 2px;
+}
+
+.login_button {
+    border: solid 2px blue;
+    width: 40%;
+    background-color: cornflowerblue;
+}
+
+
